@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "1.0.0">
+
+<name>TodoJujuy</name>
+<description>TodoJujuy</description>
+
+<icon src="img/logo.png" gap:platform="android" gap:density="ldpi" />
+<icon src="img/logo.png" gap:platform="android" gap:density="mdpi" />
+<icon src="img/logo.png" gap:platform="android" gap:density="hdpi" />
+<icon src="img/logo.png" gap:platform="android" gap:density="xhdpi" />
+<icon src="img/logo.png" gap:platform="blackberry" />
+<icon src="img/logo.png" gap:platform="winphone" />
+<icon src="img/logo.png" gap:platform="webos" />
+
+<gap:splash src="splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+
+<gap:splash src="splash/bb/splash.png" gap:platform="blackberry" />
+<gap:splash src="splash/winphone/splash.jpg" gap:platform="winphone" />
+
+<preference name="android-installLocation" value="preferExternal" />
+<preference name="splash-screen-duration" value="1000" />
+<preference name="permissions" value="none" />
+<author href="https://www.todojujuy.com" email="info@todojujuy.com">
+MF
+</author>
+
+</widget>
